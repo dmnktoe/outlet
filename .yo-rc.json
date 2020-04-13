@@ -1,0 +1,30 @@
+{
+  "generator-ngx-rocket": {
+    "version": "8.0.1",
+    "props": {
+      "location": "path",
+      "strict": false,
+      "skipInstall": false,
+      "skipQuickstart": false,
+      "initGit": true,
+      "usePrefix": true,
+      "appName": "Outlet",
+      "target": ["web"],
+      "pwa": true,
+      "ui": "bootstrap",
+      "auth": false,
+      "lazy": true,
+      "angulartics": true,
+      "languages": ["en-US"],
+      "analyticsProvider": "ga",
+      "googleAnalyticsAccount": "UA-24449183-9",
+      "tools": ["prettier", "hads", "jest", "puppeteer"],
+      "utility": ["lodash", "moment"],
+      "deploy": "none",
+      "projectName": "outlet",
+      "packageManager": "npm",
+      "mobile": [],
+      "desktop": []
+    }
+  }
+}
