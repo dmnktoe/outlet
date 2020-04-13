@@ -3,11 +3,11 @@ import { Component, OnInit } from '@angular/core';
 import { environment } from '@env/environment';
 
 @Component({
-  selector: 'app-about',
-  templateUrl: './about.component.html',
-  styleUrls: ['./about.component.scss'],
+  selector: 'app-info',
+  templateUrl: './info.component.html',
+  styleUrls: ['./info.component.scss'],
 })
-export class AboutComponent implements OnInit {
+export class InfoComponent implements OnInit {
   version: string | null = environment.version;
 
   constructor() {}

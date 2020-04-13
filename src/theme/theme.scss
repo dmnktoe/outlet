@@ -10,11 +10,20 @@ body {
 
 /* NAVBAR */
 
-.navbar-nav .nav-link {
-  color: black !important;
-}
+.navbar-light {
+  & .navbar-nav {
+    & .nav-link {
+      color: black;
+    }
 
-.navbar-nav .nav-link.active {
-  color: black;
-  text-decoration: underline;
+    & .nav-link.active {
+      color: black;
+      text-decoration: underline;
+    }
+
+    & .nav-link:hover {
+      color: black;
+      text-decoration: dotted;
+    }
+  }
 }
