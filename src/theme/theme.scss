@@ -7,3 +7,14 @@ body {
   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+/* NAVBAR */
+
+.navbar-nav .nav-link {
+  color: black !important;
+}
+
+.navbar-nav .nav-link.active {
+  color: black;
+  text-decoration: underline;
+}

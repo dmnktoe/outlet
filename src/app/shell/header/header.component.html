@@ -1,6 +1,6 @@
 <header>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="https://github.com/ngx-rocket" translate>APP_NAME</a>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" routerLink="/home">OUTLET</a>
     <button
       class="navbar-toggler"
       type="button"
@@ -12,18 +12,22 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div id="navbar-menu" class="collapse navbar-collapse float-xs-none" [ngbCollapse]="menuHidden">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link text-uppercase" routerLink="/home" routerLinkActive="active">
-          <i class="fas fa-home"></i>
-          <span translate>Home</span>
-        </a>
-        <a class="nav-item nav-link text-uppercase" routerLink="/about" routerLinkActive="active">
-          <i class="fas fa-question-circle"></i>
-          <span translate>About</span>
-        </a>
-      </div>
       <div class="navbar-nav ml-auto">
-        <app-language-selector inNavbar="true" menuClass="dropdown-menu dropdown-menu-right"></app-language-selector>
+        <a class="nav-item nav-link" routerLink="/releases" routerLinkActive="active">
+          <span translate>Releases</span>
+        </a>
+        <a class="nav-item nav-link" href="https://outlet-label.bandcamp.com/" target="_blank">
+          <span translate>Bandcamp</span>
+        </a>
+        <a class="nav-item nav-link" routerLink="/releases" routerLinkActive="active">
+          <span translate>Social</span>
+        </a>
+        <a class="nav-item nav-link" routerLink="/about" routerLinkActive="active">
+          <span translate>Info</span>
+        </a>
+        <a class="nav-item nav-link" href="#" target="_blank">
+          <span translate>Subscribe</span>
+        </a>
       </div>
     </div>
   </nav>
