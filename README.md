@@ -1,6 +1,6 @@
-<div align="center"><img src="https://assets.dmnktoe.de/radio-rasclat/logo/logo.svg" width="140"></div>
+<div align="center"><img src="https://assets.dmnktoe.de/outlet/images/svg/logo/outlet-label_logo.svg" width="140"></div>
 
-# Radio Rasclat
+# Outlet
 
 <p>
 <img src="https://img.shields.io/github/package-json/v/dmnktoe/outlet.svg">
