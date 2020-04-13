@@ -1,7 +1,18 @@
-{
-  "id": "1",
-  "sku": "OUT001",
-  "artists": ["DJ State", "Ease Up George"],
-  "public": true,
-  "title": "gold"
-}
+[
+  {
+    "id": "2",
+    "artist": "DJ State",
+    "cat": "OUT002",
+    "date": "1 May 2020",
+    "format": "Digital / WAV",
+    "title": "RAPTURE EP"
+  },
+  {
+    "id": "1",
+    "artist": "DJ State",
+    "cat": "OUT001",
+    "date": "8 December 2019",
+    "format": "Tape-Cassette, Digital / WAV",
+    "title": "Best Of Outlet 001"
+  }
+]

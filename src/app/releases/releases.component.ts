@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { finalize } from 'rxjs/operators';
 
-import { ReleasesService } from './releases.service';
+import * as releases from './releases.json';
 
 @Component({
   selector: 'app-releases',
@@ -9,22 +8,10 @@ import { ReleasesService } from './releases.service';
   styleUrls: ['./releases.component.scss'],
 })
 export class ReleasesComponent implements OnInit {
-  quote: string | undefined;
+  releases: any = (releases as any).default;
   isLoading = false;
 
-  constructor(private releasesService: ReleasesService) {}
+  constructor() {}
 
-  ngOnInit() {
-    this.isLoading = true;
-    this.releasesService
-      .getRandomQuote({ category: 'dev' })
-      .pipe(
-        finalize(() => {
-          this.isLoading = false;
-        })
-      )
-      .subscribe((quote: string) => {
-        this.quote = quote;
-      });
-  }
+  ngOnInit() {}
 }
