@@ -2,6 +2,7 @@
   <table class="table">
     <thead>
       <tr>
+        <th scope="col"></th>
         <th scope="col">Cat #</th>
         <th scope="col">Artist</th>
         <th scope="col">Title</th>
@@ -11,6 +12,7 @@
     </thead>
     <tbody>
       <tr *ngFor="let release of releases">
+        <td><img src="{{ release.image }}" width="200" /></td>
         <td>{{ release.cat }}</td>
         <td>{{ release.artist }}</td>
         <td>{{ release.title }}</td>

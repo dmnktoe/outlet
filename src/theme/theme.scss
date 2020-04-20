@@ -3,10 +3,41 @@
  * Framework overrides and customization goes here.
  */
 
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+@font-face {
+  font-family: "NHaasGroteskDSW01-Bd";
+  src: url("./assets/fonts/NHaasGroteskDSW01-Bd.woff2") format("woff2"),
+    url("./assets/fonts/NHaasGroteskDSW01-Bd.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NHaasGroteskDSW01-55Rg";
+  src: url("./assets/fonts/NHaasGroteskDSW01-55Rg.woff2") format("woff2"),
+    url("./assets/fonts/NHaasGroteskDSW01-55Rg.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
 body {
-  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
-    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  padding-top: 60px;
+  font-family: NHaasGroteskDSW01-55Rg, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  padding-top: 100px;
+  background: #ffffff;
+  font-size: 1.6rem;
 }
 
 /* NAVBAR */
@@ -27,4 +58,16 @@ body {
       text-decoration: dotted;
     }
   }
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 1px solid #000000;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #000000;
 }
