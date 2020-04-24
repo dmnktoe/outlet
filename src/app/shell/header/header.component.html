@@ -1,0 +1,25 @@
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <a class="navbar-brand" routerLink="/"><img src="./assets/svg/outlet-logo__wide-outline.svg" width="135" /></a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      aria-controls="navbar-menu"
+      aria-label="Toggle navigation"
+      (click)="toggleMenu()"
+      [attr.aria-expanded]="!menuHidden"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="navbar-menu" class="collapse navbar-collapse float-xs-none" [ngbCollapse]="menuHidden">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-item nav-link" routerLink="/releases" routerLinkActive="active">
+          <span translate>Releases</span>
+        </a>
+        <a class="nav-item nav-link" routerLink="/info" routerLinkActive="active">
+          <span translate>Info</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+</header>

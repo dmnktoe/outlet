@@ -1,5 +1,4 @@
 dist: trusty
-sudo: false
 
 language: node_js
 node_js:
@@ -16,7 +15,7 @@ install:
   - npm install
 
 script:
-  - npm test
+  - npm run test:ci
   - npm run build
 
 after_success:
