@@ -7,7 +7,7 @@
 <img src="https://david-dm.org/dmnktoe/outlet/status.svg">
 </p>
 
-Radio Rasclat is a non-commercial internet radio station which is going to stream your music to the web, again! It offers you a platform to play & try out. It serves as a place for the exchange, dialogue and cooperation of music. Founded and curated in 2019, the radio returns to the new venue at KMMN 3. Submit your music via e-mail ([office@radio-rasclat.com](mailto:office@radio-rasclat.com)) to get your own show slot or appearance. Or just listen live on [radio-rasclat.com](https://radio-rasclat.com/).
+Outlet is a contemporary music platform focused on bringing a rich palette of underground styles to our customers. We deliver you carefully crafted in-house productions made by a close circle of friends and affiliates, which are constantly trying to push genre boundaries to the limit and pricing to the minimum.
 
 ### Buy our releases
 
@@ -20,8 +20,8 @@ On Bandcamp.
 <!-- prettier-ignore -->
 | Branch    | Tests | Code Coverage | Codefactor | Comments                 |
 | --------- | ----- | ------------- | ---------- | ------------------------ |
-| `develop` | <img src="https://travis-ci.com/dmnktoe/outlet.svg?branch=develop"> | [![codecov](https://codecov.io/gh/dmnktoe/outlet/branch/develop/graph/badge.svg)](https://codecov.io/gh/dmnktoe/radio-rasclat-server) | [![CodeFactor](https://www.codefactor.io/repository/github/dmnktoe/outlet/badge/develop)](https://www.codefactor.io/repository/github/dmnktoe/outlet/overview/develop) | Work in progress |
-| `master`  | <img src="https://travis-ci.com/dmnktoe/outlet.svg?branch=master"> | [![codecov](https://codecov.io/gh/dmnktoe/outlet/branch/master/graph/badge.svg)](https://codecov.io/gh/dmnktoe/radio-rasclat-server) | [![CodeFactor](https://www.codefactor.io/repository/github/dmnktoe/outlet/badge/develop)](https://www.codefactor.io/repository/github/dmnktoe/outlet/overview/master) | Latest Production Release |
+| `develop` | <img src="https://travis-ci.com/dmnktoe/outlet.svg?branch=develop"> | [![codecov](https://codecov.io/gh/dmnktoe/outlet/branch/develop/graph/badge.svg)](https://codecov.io/gh/dmnktoe/outlet) | [![CodeFactor](https://www.codefactor.io/repository/github/dmnktoe/outlet/badge/develop)](https://www.codefactor.io/repository/github/dmnktoe/outlet/overview/develop) | Work in progress |
+| `master`  | <img src="https://travis-ci.com/dmnktoe/outlet.svg?branch=master"> | [![codecov](https://codecov.io/gh/dmnktoe/outlet/branch/master/graph/badge.svg)](https://codecov.io/gh/dmnktoe/outlet) | [![CodeFactor](https://www.codefactor.io/repository/github/dmnktoe/outlet/badge/master)](https://www.codefactor.io/repository/github/dmnktoe/outlet/overview/master) | Latest Production Release |
 
 ### Getting Started
 

@@ -1,8 +1,17 @@
 [
   {
+    "id": "3",
+    "artist": "Ease Up George",
+    "cat": "OUT002",
+    "date": "1 May 2020",
+    "format": "Digital / WAV",
+    "title": "Time, Space, Rhythm",
+    "image": "https://f4.bcbits.com/img/a3196837312_10.jpg"
+  },
+  {
     "id": "2",
     "artist": "DJ State",
-    "cat": "OUT002",
+    "cat": "OUT001",
     "date": "1 May 2020",
     "format": "Digital / WAV",
     "title": "RAPTURE EP",
@@ -11,7 +20,7 @@
   {
     "id": "1",
     "artist": "Various Artists",
-    "cat": "OUT001",
+    "cat": "BEST OF OUTLET001",
     "date": "8 December 2019",
     "format": "Tape-Cassette, Digital / WAV",
     "title": "Best Of Outlet 001",
