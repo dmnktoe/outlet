@@ -1,5 +1,14 @@
 [
   {
+    "id": "4",
+    "artist": "DJ MC Klaus",
+    "cat": "OUT003",
+    "date": "5 June 2020",
+    "format": "Digital / WAV",
+    "title": "Overload",
+    "image": "https://f4.bcbits.com/img/a2664164023_10.jpg"
+  },
+  {
     "id": "3",
     "artist": "Ease Up George",
     "cat": "OUT002",
@@ -14,7 +23,7 @@
     "cat": "OUT001",
     "date": "1 May 2020",
     "format": "Digital / WAV",
-    "title": "RAPTURE EP",
+    "title": "RAPTURE",
     "image": "https://f4.bcbits.com/img/a1224641263_10.jpg"
   },
   {
