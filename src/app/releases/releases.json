@@ -1,5 +1,23 @@
 [
   {
+    "id": "7",
+    "artist": "Nutassdawg",
+    "cat": "OUT006",
+    "date": "4 December 2020",
+    "format": "Digital / WAV",
+    "title": "Easy Money",
+    "image": "https://f4.bcbits.com/img/a4164480309_10.jpg"
+  },
+  {
+    "id": "6",
+    "artist": "Driahn",
+    "cat": "OUT005",
+    "date": "6 November 2020",
+    "format": "Digital / WAV",
+    "title": "Cyberphunk",
+    "image": "https://f4.bcbits.com/img/a2179434527_10.jpg"
+  },
+  {
     "id": "5",
     "artist": "Schneider",
     "cat": "OUT004",
