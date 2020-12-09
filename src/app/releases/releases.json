@@ -6,7 +6,9 @@
     "date": "4 December 2020",
     "format": "Digital / WAV",
     "title": "Easy Money",
-    "image": "https://f4.bcbits.com/img/a4164480309_10.jpg"
+    "image": "https://f4.bcbits.com/img/a4164480309_10.jpg",
+    "bandcampUrl": "https://outlet-label.bandcamp.com/album/easy-money",
+    "spotifyUrl": ""
   },
   {
     "id": "6",
@@ -15,7 +17,9 @@
     "date": "6 November 2020",
     "format": "Digital / WAV",
     "title": "Cyberphunk",
-    "image": "https://f4.bcbits.com/img/a2179434527_10.jpg"
+    "image": "https://f4.bcbits.com/img/a2179434527_10.jpg",
+    "bandcampUrl": "https://outlet-label.bandcamp.com/album/cyberphunk-2",
+    "spotifyUrl": ""
   },
   {
     "id": "5",
@@ -24,7 +28,9 @@
     "date": "27 September 2020",
     "format": "Digital / WAV",
     "title": "I Love You * Kingdom Flip",
-    "image": "https://f4.bcbits.com/img/a3821616104_10.jpg"
+    "image": "https://f4.bcbits.com/img/a3821616104_10.jpg",
+    "bandcampUrl": "https://outlet-label.bandcamp.com/album/i-love-you-kingdom-flip",
+    "spotifyUrl": ""
   },
   {
     "id": "4",
@@ -33,7 +39,9 @@
     "date": "5 June 2020",
     "format": "Digital / WAV",
     "title": "Overload",
-    "image": "https://f4.bcbits.com/img/a2664164023_10.jpg"
+    "image": "https://f4.bcbits.com/img/a2664164023_10.jpg",
+    "bandcampUrl": "https://outlet-label.bandcamp.com/album/overload",
+    "spotifyUrl": "https://open.spotify.com/album/5uGhuDkIzRPo82Dhpsrpvr?si=tps0Q8pfT_yyLZkazZcu6Q"
   },
   {
     "id": "3",
@@ -42,7 +50,9 @@
     "date": "1 May 2020",
     "format": "Digital / WAV",
     "title": "Time, Space, Rhythm",
-    "image": "https://f4.bcbits.com/img/a3196837312_10.jpg"
+    "image": "https://f4.bcbits.com/img/a3196837312_10.jpg",
+    "bandcampUrl": "https://outlet-label.bandcamp.com/album/time-space-rhythm-2",
+    "spotifyUrl": "https://open.spotify.com/album/6jV7NSE7UE0kKEiy8RiI2Y?si=bkoRbJWyT5G4zDgiSOK2Bg"
   },
   {
     "id": "2",
@@ -51,7 +61,9 @@
     "date": "1 May 2020",
     "format": "Digital / WAV",
     "title": "RAPTURE",
-    "image": "https://f4.bcbits.com/img/a1224641263_10.jpg"
+    "image": "https://f4.bcbits.com/img/a1224641263_10.jpg",
+    "bandcampUrl": "https://outlet-label.bandcamp.com/album/rapture",
+    "spotifyUrl": "https://open.spotify.com/album/0yk5YzlHSIhXUvYTeuaUk7?si=OQUNZLz7QruO27_NhZbMeg"
   },
   {
     "id": "1",
@@ -60,6 +72,8 @@
     "date": "8 December 2019",
     "format": "Tape-Cassette, Digital / WAV",
     "title": "Best Of Outlet 001",
-    "image": "https://f4.bcbits.com/img/a3479198233_10.jpg"
+    "image": "https://f4.bcbits.com/img/a3479198233_10.jpg",
+    "bandcampUrl": "https://outlet-label.bandcamp.com/album/best-of-outlet-001",
+    "spotifyUrl": "https://open.spotify.com/album/6x40FpgCJb7Fw52caewGXR?si=bzFRS4w2QDqiGn-ICIsBWQ"
   }
 ]
