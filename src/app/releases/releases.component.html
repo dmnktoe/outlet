@@ -8,6 +8,7 @@
         <th scope="col">Title</th>
         <th scope="col">Format</th>
         <th scope="col">Date</th>
+        <th scope="col">Buy/Stream</th>
       </tr>
     </thead>
     <tbody>
@@ -18,6 +19,10 @@
         <td>{{ release.title }}</td>
         <td>{{ release.format }}</td>
         <td>{{ release.date }}</td>
+        <td>
+          <a href="{{ release.bandcampUrl }}" target="_blank">Bandcamp</a> |
+          <a href="{{ release.spotifyUrl }}" target="_blank">Spotify</a>
+        </td>
       </tr>
     </tbody>
   </table>
