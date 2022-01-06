@@ -20,8 +20,11 @@
         <td>{{ release.format }}</td>
         <td>{{ release.date }}</td>
         <td>
-          <a href="{{ release.bandcampUrl }}" target="_blank">Bandcamp</a> |
-          <a href="{{ release.spotifyUrl }}" target="_blank">Spotify</a>
+          <a href="{{ release.bandcampUrl }}" target="_blank">Bandcamp</a>
+          <span *ngIf="release.spotifyUrl">
+            |
+            <a href="{{ release.spotifyUrl }}" target="_blank">Spotify</a>
+          </span>
         </td>
       </tr>
     </tbody>
