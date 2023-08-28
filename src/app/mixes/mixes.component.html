@@ -1,0 +1,26 @@
+<div class="container-fluid">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col"></th>
+        <th scope="col">Artists</th>
+        <th scope="col">Title</th>
+        <th scope="col">Duration</th>
+        <th scope="col">Date</th>
+        <th scope="col">Listen</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let mix of mixes">
+        <td><img src="{{ mix.image }}" width="200" /></td>
+        <td>{{ mix.artist }}</td>
+        <td>{{ mix.title }}</td>
+        <td>{{ mix.duration }}</td>
+        <td>{{ mix.date }}</td>
+        <td>
+          <a href="{{ mix.soundcloudUrl }}" target="_blank">Soundcloud</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
