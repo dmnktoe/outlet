@@ -1,0 +1,15 @@
+{
+  "assignees": ["dmnktoe"],
+  "labels": ["dependencies"],
+  "extends": ["config:base", ":enablePreCommit", ":preserveSemverRanges", ":disableDependencyDashboard"],
+  "packageRules": [
+    {
+      "matchManagers": ["github-actions"],
+      "addLabels": ["ci"]
+    },
+    {
+      "matchManagers": ["npm"],
+      "addLabels": ["npm"]
+    }
+  ]
+}
