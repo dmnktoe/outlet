@@ -34,7 +34,7 @@
     "@ng-bootstrap/ng-bootstrap": "^6.0.2",
     "@ngx-translate/core": "^12.0.0",
     "angulartics2": "^8.3.0",
-    "bootstrap": "^4.1.1",
+    "bootstrap": "^5.0.0",
     "codecov": "^3.6.5",
     "lodash": "^4.17.11",
     "moment": "^2.24.0",
